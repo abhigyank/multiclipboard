@@ -4,16 +4,18 @@ Multiclipboard helps to maintain multiple clipboards under unique keywords which
 This is a Python program to keep track of multiple pieces of text. This “multiclipboard” is named mcb.py.
 
 Usage- 
-- Place the mcb.bat and mcb.py file in a same folder, preferably C:\Users\*username*\
-- Run the mcb.bat file from the run window (windows+r r launch the run window and execute C:\Users\*username*\mcb.bat
+- Place the `mcb.bat` and `mcb.py` file in a same folder, preferably `C:\Users\*username*\`
+- Run the mcb.bat file from the run window (windows+r r launch the run window and execute `C:\Users\*username*\mcb.bat`
 - Put the required keyword/keywords after .bat followed by a space 
 
 Keywords-
--- mcb.bat save <keyword> - Saves content on original clipboard to keyword, SELECT THE REQUIRED TEXT TO BE COPIED TO KEYWORD AND PRESS CTRL+C TO FIRST COPY IT TO ORIGINAL CLIPBOARD 
--- mcb.bat <keyword> - Loads the content saved in keyword to clipboard, press ctrl+ v to paste the content.
--- mcb.bat list - Lists all keywords saved till then.
--- mcb.bat delete <keyword> - Deletes the keyword and its content
--- mcb.bat delete all - Deletes all the keywords and their contents
+- `mcb.bat save <keyword>` - Saves content on original clipboard to keyword, SELECT THE REQUIRED TEXT TO BE COPIED TO KEYWORD AND PRESS CTRL+C TO FIRST COPY IT TO ORIGINAL CLIPBOARD 
+- `mcb.bat <keyword>` - Loads the content saved in keyword to clipboard, press ctrl+ v to paste the content.
+- `mcb.bat list` - Lists all keywords saved till then.
+- `mcb.bat delete <keyword>` - Deletes the keyword and its content
+- `mcb.bat delete all` - Deletes all the keywords and their contents
 
-Example command to save - C:\Users\*username*\mcb.bat save clip
-^This save the text on the original clipboard to clip keyword
+#### Example command to save - 
+`C:\Users\*username*\mcb.bat save clip`
+
+^This will save the text on the original clipboard to clip keyword.
